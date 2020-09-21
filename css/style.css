@@ -1,0 +1,130 @@
+
+.right-comp-content{
+    border-left: 2px solid black;
+    padding: 20px;
+}
+.left-comp-content{
+    border-right: 2px solid black;
+    padding: 20px;
+}
+
+.left-comp-content p, .right-comp-content p{
+    font-size: 14px;
+}
+
+
+h3{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.title{
+    margin: 20px 0;
+}
+
+.competences{
+    position: relative;
+}
+.competences img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 13%;
+    opacity: 0.25;
+}
+.what-i-can-do{
+    background-color: #A8DADC;
+}
+.what-i-can-do-cont{
+    background-color: #A8DADC;
+}
+.w-title{
+    font-size: 22px;
+}
+.parag{
+    line-height: 45px;
+}
+
+.contact-btn{
+    border: 1px solid #E63946;
+    background-color: #A8DADC;
+    padding: 12px 30px;
+    margin-top: 30px;
+}
+
+.contact-btn:hover{
+    background-color: #E63946;
+}
+
+.contact-btn a{
+    color: black;  
+    text-decoration: none;
+}
+
+.dropleft button:hover {
+  background-color: white;
+  color: black;
+}
+.btn-group, .btn-group-vertical{
+
+
+    top: 36rem;
+    position: relative;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: middle;
+    left: 90rem;
+    position: fixed;
+}
+
+  .dropleft .dropdown-menu {
+  -webkit-transform: translate3d(-163px, -36px, 0px) !important;
+          transform: translate3d(-163px, -36px, 0px) !important;
+  border: 1px solid black;
+  border-radius: unset;
+
+
+  
+}
+.dropdown-item{
+
+      display: block;
+      width: 100%;
+      padding: .25rem 1.5rem;
+      clear: both;
+      font-weight: 400;
+      color:black;
+      text-align: inherit;
+      white-space: nowrap;
+      background-color: transparent;
+      border: #A8DADC;
+} 
+
+@media screen and (max-width: 800px){
+    .right-comp-content,.left-comp-content{
+border: none;    
+margin-left: 12rem;
+
+}
+.container, .container-md, .container-sm{
+    max-width: 45rem;   
+}
+
+.btn-group, .btn-group-vertical{
+    top: 5rem;
+   
+    left: 45rem;
+  }
+/* .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    display: flow-root;
+    text-align: -webkit-center; */
+} 
+
+
+/* } */

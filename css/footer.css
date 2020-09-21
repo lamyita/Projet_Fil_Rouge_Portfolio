@@ -1,0 +1,17 @@
+footer{
+    height: 120px;
+}
+.footer-flower-image{
+    width: 50px;
+}
+.footer-logo{
+    width: 145px;
+    margin-top: 20px;
+}
+.text-cont{
+    margin-left: 20px;
+}
+
+.text-cont p{
+    font-size: 14px;
+}

@@ -1,0 +1,117 @@
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: #F8F8F8;
+    position: relative;
+}
+.hero-container, .hero-container .row .col-4, .hero-container .row .col-2, .hero-container .row .col-6{
+    height:100vh;
+}
+
+.blue-background{
+    background-color: #A8DADC;
+    position: relative;
+}
+.flower-background{
+    position: absolute;
+    left: 50px;
+    top: 15%;
+    width: 26%;
+    opacity: 0.11;
+}
+
+.center-flower-image{
+    position: absolute;
+    left: -15%;
+    width: 89%;
+    top: 7%;
+}
+
+.content-cont{
+    position: relative;
+}
+.content-cont .content{
+    position: absolute;
+    top: 40%;
+    width: 75%;
+    left: 12.5%;
+}
+
+.content-cont .content h1{
+    font-weight: 700;
+    font-size: 45px;
+    position: relative;
+}
+.content-cont .content h1::before{
+    content: "";
+    position: absolute;
+    left: -45px;
+    top: 27%;
+    height: 7px;
+    width: 40px;
+    background-color: #E63946;
+}
+.modified-title::before{
+    left: -60px !important;
+    top: 51% !important;
+
+}
+.content-cont .content p{
+    font-size: 16px;
+    color: #898989;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 800px){
+
+
+.blue-background
+{
+background-color: #F8F8F8;    
+position: initial;
+
+}
+ .flower-background{
+    position: absolute;
+    left: 50px;
+    top: 15%;
+    width: 26%;
+    opacity: 0.11;
+} 
+.center-flower-image {
+    position: relative;
+    left: -62%;
+    width: 117%;
+    top: 54%;
+}
+.content-cont .content h1{
+    font-weight: 700;
+    font-size: 45px;
+    position: relative;
+    left: 7rem;
+    top: -9rem;
+    display: inline-flex;
+    width: max-content;
+}
+.content-cont .content h1::before{
+    content: "";
+    position: absolute;
+    left: -45px;
+    top: 27%;
+    height: 7px;
+    width: 40px;
+    background-color: #E63946;
+}
+.content-cont .content p{
+    top: -2rem;
+    font-size: 16px;
+    color: #898989;
+    display: flex;
+    left: 8rem;
+    position: absolute;
+    width: -webkit-fill-available;
+}
+
+
+}

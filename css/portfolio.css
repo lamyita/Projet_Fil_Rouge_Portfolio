@@ -1,0 +1,188 @@
+.project-card {
+    width: 220px;
+    height: 220px;
+    margin-top: 10px;
+}
+
+.project-image {
+    position: relative;
+    height: 75%;
+    width: 75%;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+} 
+.project-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.project-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #A8DADC;
+    opacity: 0.2;
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0;
+    height: 50px;
+}
+
+.view-more{
+    background-color: white;
+    border: 1px solid #E63946;
+    color: black;
+    padding: 12px 40px ;
+}
+
+.overrided-hero{
+    height: 75vh !important;
+}
+
+.overrided-hero .hero-container, .overrided-hero .hero-container .row .col-4,.overrided-hero .hero-container .row .col-2, .overrided-hero .hero-container .row .col-6{
+    height:75vh !important;
+}
+
+
+
+ main .categories .navs-list .active{
+
+    color: white;
+    background-color: black;
+}
+
+body main .categories .navs-list .navs-item {
+    list-style-type: none;
+    font-family: "Lato","Lato Medium";
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+    padding:17px 41px;
+    border-radius: 11px;
+}
+/* body main .projects-section #all .project-container .card, body main .projects-section #website .project-container .card, body main .projects-section #mobileapp .project-container .card, body main .projects-section #webapp .project-container .card, body main .projects-section #game .project-container .card, body main .projects-section #others .project-container .card {
+    position: relative;
+    border: 0 !important;
+    border-radius: 0 !important;
+    margin-bottom: 8rem !important;
+}
+[data-sal|=slide].sal-animate, body.sal-disabled [data-sal|=slide] {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+} */
+.modal.show .modal-dialog {
+    -webkit-transform: none;
+    transform: none;
+}
+.modal.fade .modal-dialog {
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    transition: transform .3s ease-out,-webkit-transform .3s ease-out;
+    -webkit-transform: translate(0,-50px);
+    transform: translate(0,-50px);
+}
+body main .projects-section .modal-dialog .modal-content .modal-footer button {
+    border: none !important;
+    border-radius: none !important;
+    background-color: #3d3d3d !important;
+    color: white;
+    padding: 12px 29px;
+}
+
+body main .projects-section .modal-dialog .modal-content .modal-footer button {
+    border: none !important;
+    border-radius: none !important;
+    background-color: #3d3d3d !important;
+    color: white;
+}
+
+
+
+.dropleft button:hover {
+    background-color: white;
+    color: black;
+  }
+  .btn-group, .btn-group-vertical{
+  
+  
+      top: 36rem;
+      position: relative;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      vertical-align: middle;
+      left: 90rem;
+      position: fixed;
+  }
+  
+    .dropleft .dropdown-menu {
+    -webkit-transform: translate3d(-163px, -36px, 0px) !important;
+            transform: translate3d(-163px, -36px, 0px) !important;
+    border: 1px solid black;
+    border-radius: unset;
+  
+  
+    
+  }
+  .dropdown-item{
+  
+        display: block;
+        width: 100%;
+        padding: .25rem 1.5rem;
+        clear: both;
+        font-weight: 400;
+        color:black;
+        text-align: inherit;
+        white-space: nowrap;
+        background-color: transparent;
+        border: #A8DADC;
+  } 
+  
+@media screen and (max-width: 800px){
+    .col-4 .port{
+         
+        position: relative;
+        left: 2%;
+        width: 91%;
+        top: 25%;
+        height: 21rem;
+           
+       
+     
+      
+   }
+   .btn-group, .btn-group-vertical{
+    top: 5rem;
+    position: fixed;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: middle;
+    left: 45rem;
+  }
+}
+
+
+#mimg{
+    width: 100%;
+}
+.btn{
+    padding: 5px 10px;
+}
+
+.name{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.align-items-xl-start{
+    padding: 4rem;
+}

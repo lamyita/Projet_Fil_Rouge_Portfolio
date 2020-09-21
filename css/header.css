@@ -1,0 +1,108 @@
+nav{
+    height: 70px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+.scrolled{
+    background-color: white;
+}
+.logo-link{
+    width: 160px;
+}
+.logo-image{
+    width: 100%;
+}
+.socials{
+    list-style: none;
+}
+.socials li{
+    margin-right: 15px;
+}   
+.socials li a{
+    font-size: 18px;
+}   
+.menu-nav{
+    list-style: none;
+}
+
+
+.menu-nav li a, .socials li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}   
+
+.hamburger div{
+    width: 30px;
+    height:3px;
+    background: #000000;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+.hamburger{
+    display: none;
+}
+
+@media screen and (max-width: 800px){
+
+  
+    .hamburger{
+        display:block;
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 50%;
+        transform: translate(-5%, -50%);
+        z-index: 2;
+        transition: all 0.7s ease;
+    }
+    .mb-0{
+        display: none;
+    }
+    .menu-nav{
+        position: fixed;
+        /* background: white; */
+        /* height: 72vh; */
+        flex-direction: column;
+        clip-path: circle(50px at 90% -20%);
+        -webkit-clip-path: circle(50px at 90% -10%);
+        transition: all 1s ease-out;
+        pointer-events: none;
+    }
+     .menu-nav.open{
+        clip-path: circle(1000px at 90% -10%);
+        -webkit-clip-path: circle(1000px at 90% -10%);
+        pointer-events: all;
+        background-color: #A8DADC;
+    }
+    .socials{
+        display: none;
+    }
+    .socials.open{
+        clip-path: circle(1000px at 90% -10%);
+        -webkit-clip-path: circle(1000px at 90% -10%);
+        pointer-events: all;
+        position: relative;
+        left: -11rem;
+        display: block;
+    }
+   
+  
+}
+
+
+/*Animating Hamburger Icon on Click*/
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    transition: all 0.7s ease;
+    width:0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+

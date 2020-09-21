@@ -1,0 +1,89 @@
+input, textarea{
+    border: 1px solid #E63946;
+    padding: 10px;
+}
+input{
+    height: 42px;
+}
+textarea{
+    height: 160px;
+}
+input::placeholder, textarea::placeholder{
+    font-size: 13px ;
+}
+
+label{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+button{
+    border: 1px solid #E63946;
+    background-color: #E63946;
+    color: white;
+    padding: 9px 30px;
+    font-size:14px ;
+    width: 100%;
+}
+.dropleft button:hover {
+    background-color: white;
+    color: black;
+  }
+  .btn-group, .btn-group-vertical{
+  
+  
+      top: 36rem;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      vertical-align: middle;
+      left: 90rem;
+      position: fixed;
+  }
+  
+    .dropleft .dropdown-menu {
+    -webkit-transform: translate3d(-163px, -36px, 0px) !important;
+            transform: translate3d(-163px, -36px, 0px) !important;
+    border: 1px solid black;
+    border-radius: unset;
+  
+  
+    
+  }
+  .dropdown-item{
+  
+        display: block;
+        width: 100%;
+        padding: .25rem 1.5rem;
+        clear: both;
+        font-weight: 400;
+        color:black;
+        text-align: inherit;
+        white-space: nowrap;
+        background-color: transparent;
+        border: #A8DADC;
+  } 
+  
+
+@media screen and (max-width: 800px){
+    .col-4 .contact{
+         
+        position: relative;
+        left: 2%;
+        width: 91%;
+        top: 25%;
+        height: 21rem;
+           
+       
+     
+      
+   }
+   .btn-group, .btn-group-vertical{
+    top: 5rem;
+    position: fixed;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: middle;
+    left: 45rem;
+  }
+}
